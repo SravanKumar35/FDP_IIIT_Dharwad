@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/homeGroup">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_icon"
+            android:title="@string/menu_home"
+            android:checked="false"
+            app:itemTextColor="@color/colorPrimaryDark"/>
+    </group>
+    <group
+        android:id="@+id/InfoGroup">
+
+            <item
+                android:id="@+id/icon_about_college"
+                android:checked="false"
+                android:icon="@drawable/ic_info_icon"
+                app:itemTextColor="@color/colorPrimaryDark"
+                android:title="About" />
+
+            <item
+                android:id="@+id/icon_topics"
+                android:icon="@drawable/ic_list_topics"
+                android:checked="false"
+                app:itemTextColor="@color/colorPrimaryDark"
+                android:title="Topics" />
+
+            <item
+                android:id="@+id/icon_schedule"
+                android:icon="@drawable/ic_schedule"
+                android:checked="false"
+                app:itemTextColor="@color/colorPrimaryDark"
+                android:title="Schedule" />
+
+            <item
+                android:id="@+id/icon_resource_person"
+                android:icon="@drawable/ic_stat_name"
+                android:checked="false"
+                android:title="Speakers"
+                app:itemTextColor="@color/colorPrimaryDark"/>
+
+            <item
+                android:id="@+id/icon_committee"
+                android:icon="@drawable/ic_committee"
+                android:checked="false"
+                android:title="Committee"
+                app:itemTextColor="@color/colorPrimaryDark"/>
+
+        <item
+            android:id="@+id/icon_notification"
+            android:icon="@drawable/ic_notifications"
+            android:checked="false"
+            android:title="Notifications"
+            app:itemTextColor="@color/colorPrimaryDark"/>
+
+
+
+
+    </group>
+
+
+</menu>

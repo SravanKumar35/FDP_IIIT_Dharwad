@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "814312883175",
+    "firebase_url": "https://fdp-iiit-dharwad.firebaseio.com",
+    "project_id": "fdp-iiit-dharwad",
+    "storage_bucket": "fdp-iiit-dharwad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814312883175:android:5c6fa8b3c86e81a3",
+        "android_client_info": {
+          "package_name": "org.iiitdharwad.navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814312883175-rjhsnl8of198ca58eegjml261su92q1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.iiitdharwad.navigation",
+            "certificate_hash": "74a5844846e888dc8ec2c17460771fe9effa9b10"
+          }
+        },
+        {
+          "client_id": "814312883175-u5863mqreo6uqkrd2qk0t7djnedtislm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtM2Fwd6NNpSsFZ7rEymuXkjXbD-U7G6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814312883175-u5863mqreo6uqkrd2qk0t7djnedtislm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

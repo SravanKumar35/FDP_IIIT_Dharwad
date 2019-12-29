@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/appBarLayout"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#05203E"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <RelativeLayout
+                android:id="@+id/badge_layout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="7dp"
+                android:layout_alignParentRight="true">
+
+                <RelativeLayout
+                    android:id="@+id/relative_layout_item_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/notification_button"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:clickable="true"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_notifications" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/notification_count_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/relative_layout_item_count"
+                    android:background="@android:drawable/ic_notification_overlay"
+                    android:text="0"
+                    android:textColor="#FFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/internetCheck"
+            android:text="NO INTERNET CONNECTION"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:background="#E92222"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textSize="17dp"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" android:visibility="gone"/>
+    <include layout="@layout/content_resource_person" android:visibility="gone"/>
+    <include layout="@layout/content_about_college" android:visibility="gone"/>
+    <include layout="@layout/content_about_fdp" android:visibility="visible" />
+    <include layout="@layout/content_committee_view" android:visibility="gone"/>
+    <include layout="@layout/activity_description_fdp" android:visibility="gone"/>
+    <include layout="@layout/content_schedule" android:visibility="gone"/>
+    <include layout="@layout/content_notification" android:visibility="gone"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

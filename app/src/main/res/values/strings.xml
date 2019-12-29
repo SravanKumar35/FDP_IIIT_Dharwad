@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">FDP-IIIT Dharwad</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    
+    <string name="chief_patron">Chief Patron</string>
+    <string name="patron">Patron</string>
+    <string name="speakers">Speakers</string>
+    <string name="convener">Convener</string>
+    <string name="co_convener">Co-Conveners</string>
+    <string name="fdp_name_title">ON\nAdvanced Communication and Networking Technologies</string>
+
+    <string name="about">The Indian Institute of Information Technology Dharwad is an Institute of National Importance set up in ppp model by the Ministry of Human Resource Development (MHRD), Government of India, Government of Karnataka and industrial partner Keonics under the Act of Parliament (23 of 2017).
+</string>
+
+    <string name="description">A world where the real, digital and the virtual are converging to
+        create smart environments that make energy, transport, cities and many other areas more
+        intelligent. A device become a smart device is called IOT. Now a days there are many android
+        and server based application.</string>
+
+    <string name="aboutFDPContent">Before the start of networking of computers, communication media were
+separate and their services were distinct like in case of TV &amp; radio
+broadcasting, voice telephony. Evolution of computer networking started
+way back in 1969 with the development of APRANET, which led to the birth
+of internet. In due course of time mobile and wireless networks made
+tremendous growth in generations of cellular networks. Currently, 4 th &amp; 5 th
+generations are the talk of the society. In response to the rapidly growing
+customer demands, network convergence has become the backbone of any
+digital Internet activity. Software‐defined networking (SDN) technology is
+one of the approaches to network management that enables dynamic,
+programmatically efficient network configuration than traditional network
+management. This 5‐Day FDP focuses on the latest topics in wireless
+communication and networking technologies in general, specifically 5G( and
+beyond) telecom networks, energy harvesting technologies, Information
+Centric Networks and SDNs, including hands‐on sessions.</string>
+
+</resources>
